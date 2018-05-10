@@ -13,4 +13,6 @@ The Vega modules included in this development shell are listed under the `vegaMo
 
 # Cross-Module Testing
 
-Use `yarn run test` in the top-level directory to run test suites for all Vega modules.
+Run `yarn test` in the top-level directory to run test suites for all Vega modules.
+
+Run `yarn serve` in the top-level directory to launch a web server for interactive web-based tests located in `packages/vega-lib/test`. This command will also open a browser window, click the `test` directory link to go to the test specification viewer.
