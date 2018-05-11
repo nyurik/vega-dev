@@ -15,6 +15,10 @@
     {
       "name": "Jeffrey Heer",
       "url": "http://idl.cs.washington.edu"
+    },
+    {
+      "name": "Yuri Astrakhan",
+      "email": "YuriAstrakhan+vega@gmail.com"
     }
   ],
   "repository": {
@@ -22,7 +26,7 @@
     "url": "https://github.com/vega/vega-dev.git"
   },
   "scripts": {
-    "postinstall": "bin/cloneAll && lerna bootstrap",
+    "postinstall": "git submodule update --init --recursive && npm run bootstrap",
     "bootstrap": "lerna bootstrap",
     "serve": "http-server packages/vega-lib/ -c-1 -p8080 -o",
     "test": "lerna run test"
@@ -30,30 +34,5 @@
   "devDependencies": {
     "http-server": "^0.11.1",
     "lerna": "^2.11.0"
-  },
-  "vegaModules": [
-    "git@github.com:vega/vega.git",
-    "git@github.com:vega/vega-crossfilter.git",
-    "git@github.com:vega/vega-dataflow.git",
-    "git@github.com:vega/vega-encode.git",
-    "git@github.com:vega/vega-event-selector.git",
-    "git@github.com:vega/vega-expression.git",
-    "git@github.com:vega/vega-force.git",
-    "git@github.com:vega/vega-geo.git",
-    "git@github.com:vega/vega-hierarchy.git",
-    "git@github.com:vega/vega-lib.git",
-    "git@github.com:vega/vega-loader.git",
-    "git@github.com:vega/vega-parser.git",
-    "git@github.com:vega/vega-projection.git",
-    "git@github.com:vega/vega-runtime.git",
-    "git@github.com:vega/vega-scale.git",
-    "git@github.com:vega/vega-scenegraph.git",
-    "git@github.com:vega/vega-statistics.git",
-    "git@github.com:vega/vega-transforms.git",
-    "git@github.com:vega/vega-util.git",
-    "git@github.com:vega/vega-view.git",
-    "git@github.com:vega/vega-view-transforms.git",
-    "git@github.com:vega/vega-voronoi.git",
-    "git@github.com:vega/vega-wordcloud.git"
-  ]
+  }
 }

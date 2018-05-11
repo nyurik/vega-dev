@@ -1,0 +1,69 @@
+[submodule "packages/vega"]
+	path = packages/vega
+	url = https://github.com/vega/vega.git
+[submodule "packages/vega-crossfilter"]
+	path = packages/vega-crossfilter
+	url = https://github.com/vega/vega-crossfilter.git
+[submodule "packages/vega-dataflow"]
+	path = packages/vega-dataflow
+	url = https://github.com/vega/vega-dataflow.git
+[submodule "packages/vega-encode"]
+	path = packages/vega-encode
+	url = https://github.com/vega/vega-encode.git
+[submodule "packages/vega-event-selector"]
+	path = packages/vega-event-selector
+	url = https://github.com/vega/vega-event-selector.git
+[submodule "packages/vega-expression"]
+	path = packages/vega-expression
+	url = https://github.com/vega/vega-expression.git
+[submodule "packages/vega-force"]
+	path = packages/vega-force
+	url = https://github.com/vega/vega-force.git
+[submodule "packages/vega-geo"]
+	path = packages/vega-geo
+	url = https://github.com/vega/vega-geo.git
+[submodule "packages/vega-hierarchy"]
+	path = packages/vega-hierarchy
+	url = https://github.com/vega/vega-hierarchy.git
+[submodule "packages/vega-lib"]
+	path = packages/vega-lib
+	url = https://github.com/vega/vega-lib.git
+[submodule "packages/vega-loader"]
+	path = packages/vega-loader
+	url = https://github.com/vega/vega-loader.git
+[submodule "packages/vega-parser"]
+	path = packages/vega-parser
+	url = https://github.com/vega/vega-parser.git
+[submodule "packages/vega-projection"]
+	path = packages/vega-projection
+	url = https://github.com/vega/vega-projection.git
+[submodule "packages/vega-runtime"]
+	path = packages/vega-runtime
+	url = https://github.com/vega/vega-runtime.git
+[submodule "packages/vega-scale"]
+	path = packages/vega-scale
+	url = https://github.com/vega/vega-scale.git
+[submodule "packages/vega-scenegraph"]
+	path = packages/vega-scenegraph
+	url = https://github.com/vega/vega-scenegraph.git
+[submodule "packages/vega-statistics"]
+	path = packages/vega-statistics
+	url = https://github.com/vega/vega-statistics.git
+[submodule "packages/vega-transforms"]
+	path = packages/vega-transforms
+	url = https://github.com/vega/vega-transforms.git
+[submodule "packages/vega-util"]
+	path = packages/vega-util
+	url = https://github.com/vega/vega-util.git
+[submodule "packages/vega-view"]
+	path = packages/vega-view
+	url = https://github.com/vega/vega-view.git
+[submodule "packages/vega-view-transforms"]
+	path = packages/vega-view-transforms
+	url = https://github.com/vega/vega-view-transforms.git
+[submodule "packages/vega-voronoi"]
+	path = packages/vega-voronoi
+	url = https://github.com/vega/vega-voronoi.git
+[submodule "packages/vega-wordcloud"]
+	path = packages/vega-wordcloud
+	url = https://github.com/vega/vega-wordcloud.git

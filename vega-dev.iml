@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-crossfilter/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-dataflow/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-encode/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-event-selector/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-expression/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-force/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-geo/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-hierarchy/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-lib/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-loader/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-parser/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-projection/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-runtime/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-scale/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-scenegraph/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-statistics/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-transforms/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-util/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-view-transforms/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-view/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-voronoi/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega-wordcloud/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/vega/node_modules" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
