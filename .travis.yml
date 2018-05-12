@@ -3,6 +3,7 @@ sudo: false
 node_js:
   - "8"
   - "10"
+
 addons:
   apt:
     sources:
@@ -10,5 +11,10 @@ addons:
     packages:
       - build-essential
       - g++-4.9
+
 env:
   - CXX=g++-4.9
+
+script:
+  - yarn run postinstall
+  - yarn test
