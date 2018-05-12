@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/vega/vega-dev.svg?branch=master)](https://travis-ci.org/vega/vega-dev)
+
 # vega-dev
 
 This repository gathers all Vega modules together to facilitate development. Rather than provide a true monorepo, each Vega module is installed under the `packages/` directory using a standard `git clone` (no submodules or subtrees required!). [Lerna](https://github.com/lerna/lerna) is then used to aid cross-module linking and testing.
